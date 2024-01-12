@@ -59,6 +59,36 @@ String hello = "world";
 Determine the output of the program in [FlowOfExecution.java](src/FlowOfExecution.java) without using IntelliJ or another IDE.
 Understanding how to trace through code, understand logical operators, and following the flow of execution is critical to becoming a good programmer, and of course just a good problem solver.
 
+System.out.println(flag1); prints true.
+
+System.out.println(flag2); prints true.
+
+The first if condition checks flag1 && flag2, which is true && true, so "ping!" is printed.
+
+The second if condition checks flag1 || flag2, which is true || true, so "pong!" is printed.
+
+The output of flowofexecution will be : 
+
+true
+
+true
+
+!ping
+
+!pong
+
+## Part 6: Triangle Formation Test
+
+**Objective:**
+Create a file named `src/Triangle.java` and write a program in it that determines if three given lengths can form a triangle. The test for triangle formation is as follows:
+- If any of the three lengths is greater than the sum of the other two, you cannot form a triangle.
+
+**Requirements:**
+- Input three integers representing the lengths of sticks.
+- Output whether you can (or cannot) form a triangle with the given lengths.
+- Create code to validate inputs are valid integers.
+- Display an error if any of the lengths are negative or zero.
+
 ## Submission
 Follow these steps for submission:
 1. Create a Feature01 branch of your code if you haven't already.
