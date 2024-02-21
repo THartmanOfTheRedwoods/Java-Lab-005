@@ -41,17 +41,17 @@ double amount = 50.0;
 String hello = "world";
 ```
 | Expression                               | Result |
-| ---------------------------------------- | ------ |
-| yes == no &#124;&#124; grade > amount    |        |
-| amount == 40.0 &#124;&#124; 50.0          |        |
-| hiVal != loVal &#124;&#124; loVal < 0     |        |
-| True &#124;&#124; hello.length() > 0     |        |
-| hello.isEmpty() && yes                   |        |
-| grade <= 100 && !false                   |        |
-| !yes &#124;&#124; no                      |        |
-| grade > 75 > amount                      |        |
-| amount <= hiVal && amount >= loVal       |        |
-| no && !no &#124;&#124; yes && !yes       |        |
+| ---------------------------------------- |--------|
+| yes == no &#124;&#124; grade > amount    | F      |
+| amount == 40.0 &#124;&#124; 50.0          | F      |
+| hiVal != loVal &#124;&#124; loVal < 0     | T      |
+| True &#124;&#124; hello.length() > 0     | T      |
+| hello.isEmpty() && yes                   | F      |
+| grade <= 100 && !false                   | T      |
+| !yes &#124;&#124; no                      | F      |
+| grade > 75 > amount                      | T      |
+| amount <= hiVal && amount >= loVal       | T      |
+| no && !no &#124;&#124; yes && !yes       | F      |
 
 ## Part 5: Logical Operators Understanding
 
