@@ -1,6 +1,6 @@
 # Conditionals and Logic - Java Lab 005
 
-**Instructions:**
+**Instr uctions:**
 1. Fork this repository to your GitHub account.
 2. Clone the forked repository locally to your machine.
 3. Create a new branch named Feature01.
@@ -41,23 +41,27 @@ double amount = 50.0;
 String hello = "world";
 ```
 | Expression                               | Result |
-| ---------------------------------------- | ------ |
-| yes == no &#124;&#124; grade > amount    |        |
-| amount == 40.0 &#124;&#124; 50.0          |        |
-| hiVal != loVal &#124;&#124; loVal < 0     |        |
-| True &#124;&#124; hello.length() > 0     |        |
-| hello.isEmpty() && yes                   |        |
-| grade <= 100 && !false                   |        |
-| !yes &#124;&#124; no                      |        |
-| grade > 75 > amount                      |        |
-| amount <= hiVal && amount >= loVal       |        |
-| no && !no &#124;&#124; yes && !yes       |        |
+| ---------------------------------------- |--------|
+| yes == no &#124;&#124; grade > amount    | TRUE   |
+| amount == 40.0 &#124;&#124; 50.0          | ERROR  |
+| hiVal != loVal &#124;&#124; loVal < 0     | TRUE   |
+| True &#124;&#124; hello.length() > 0     | TRUE   |
+| hello.isEmpty() && yes                   | FALSE  |
+| grade <= 100 && !false                   | TRUE   |
+| !yes &#124;&#124; no                      | FALSE  |
+| grade > 75 > amount                      | ERROR  |
+| amount <= hiVal && amount >= loVal       | TRUE   |
+| no && !no &#124;&#124; yes && !yes       | FALSE  |
 
 ## Part 5: Logical Operators Understanding
 
 **Objective:**
 Determine the output of the program in [FlowOfExecution.java](src/FlowOfExecution.java) without using IntelliJ or another IDE.
 Understanding how to trace through code, understand logical operators, and following the flow of execution is critical to becoming a good programmer, and of course just a good problem solver.
+true
+true
+ping!
+pong!
 
 ## Part 6: Triangle Formation Test
 
