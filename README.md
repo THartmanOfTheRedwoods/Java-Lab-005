@@ -41,23 +41,25 @@ double amount = 50.0;
 String hello = "world";
 ```
 | Expression                               | Result |
-| ---------------------------------------- | ------ |
-| yes == no &#124;&#124; grade > amount    |        |
-| amount == 40.0 &#124;&#124; 50.0          |        |
-| hiVal != loVal &#124;&#124; loVal < 0     |        |
-| True &#124;&#124; hello.length() > 0     |        |
-| hello.isEmpty() && yes                   |        |
-| grade <= 100 && !false                   |        |
-| !yes &#124;&#124; no                      |        |
-| grade > 75 > amount                      |        |
-| amount <= hiVal && amount >= loVal       |        |
-| no && !no &#124;&#124; yes && !yes       |        |
+| ---------------------------------------- |--------|
+| yes == no &#124;&#124; grade > amount    | false  |
+| amount == 40.0 &#124;&#124; 50.0          | error  |
+| hiVal != loVal &#124;&#124; loVal < 0     | true   |
+| True &#124;&#124; hello.length() > 0     | error  |
+| hello.isEmpty() && yes                   | false  |
+| grade <= 100 && !false                   | true   |
+| !yes &#124;&#124; no                      | false  |
+| grade > 75 > amount                      | error  |
+| amount <= hiVal && amount >= loVal       | true   |
+| no && !no &#124;&#124; yes && !yes       | false  |
 
 ## Part 5: Logical Operators Understanding
 
 **Objective:**
 Determine the output of the program in [FlowOfExecution.java](src/FlowOfExecution.java) without using IntelliJ or another IDE.
 Understanding how to trace through code, understand logical operators, and following the flow of execution is critical to becoming a good programmer, and of course just a good problem solver.
+
+- The main method is called isHoopy(202) and it has 202 as the argument. Since 202 is an even number then isHoopy will return as true which makes flag1 is true. isFrabjuous(202) is called with 202 and since 202 is greater than 0 itll make isFrabjuous return as true which makes flag2 true. println(flag1) would print as true, same thing with println(flag2). With both being true means the output would be true && true which would trigger the println("ping!") to print. with condition flag1 || flag2 being true would mean that the println("pong!") would print out as pong!. So the entire output of the program would end up being true, true, ping!, pong!.
 
 ## Part 6: Triangle Formation Test
 
