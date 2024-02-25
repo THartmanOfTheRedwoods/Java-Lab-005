@@ -80,4 +80,4 @@ Follow these steps for submission:
 5. **Make sure to COPY the Pull request URL and submit it for the lab/assignment in Canvas.**
 
 Editors note:
-Will not lie when I say I spent way more time than I should of on this one it was very long and I was kinda loosing my mind but I got it done thanks
+Will not lie when I say I spent way more time than I should of on this one it was very long and I was kinda loosing my mind but I got it done thanks!
