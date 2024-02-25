@@ -5,8 +5,7 @@ public class Rewrite {
         Scanner s = new Scanner(System.in);
         System.out.println("Please input a number for x: ");
         int x = s.nextInt();
-
-        if (x > 0) {
+//cut the script down to just one if statement.
             if (x < 10) {
                 System.out.println("positive single digit number.");
             } else {
@@ -14,5 +13,3 @@ public class Rewrite {
             }
         }
     }
-
-}
