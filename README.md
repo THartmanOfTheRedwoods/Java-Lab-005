@@ -41,17 +41,17 @@ double amount = 50.0;
 String hello = "world";
 ```
 | Expression                               | Result |
-| ---------------------------------------- | ------ |
-| yes == no &#124;&#124; grade > amount    |        |
-| amount == 40.0 &#124;&#124; 50.0          |        |
-| hiVal != loVal &#124;&#124; loVal < 0     |        |
-| True &#124;&#124; hello.length() > 0     |        |
-| hello.isEmpty() && yes                   |        |
-| grade <= 100 && !false                   |        |
-| !yes &#124;&#124; no                      |        |
-| grade > 75 > amount                      |        |
-| amount <= hiVal && amount >= loVal       |        |
-| no && !no &#124;&#124; yes && !yes       |        |
+| ---------------------------------------- |-------|
+| yes == no &#124;&#124; grade > amount    | true  |
+| amount == 40.0 &#124;&#124; 50.0          | true  |
+| hiVal != loVal &#124;&#124; loVal < 0     | true  |
+| True &#124;&#124; hello.length() > 0     | true  |
+| hello.isEmpty() && yes                   | false |
+| grade <= 100 && !false                   | true  |
+| !yes &#124;&#124; no                      | false |
+| grade > 75 > amount                      | true  |
+| amount <= hiVal && amount >= loVal       | true  |
+| no && !no &#124;&#124; yes && !yes       | false |
 
 ## Part 5: Logical Operators Understanding
 
@@ -78,3 +78,6 @@ Follow these steps for submission:
 3. Push it to your Remote/origin branch (i.e., GitHub: Feature01 -> origin/Feature01).
 4. Issue a Pull request to my instructor repo.
 5. **Make sure to COPY the Pull request URL and submit it for the lab/assignment in Canvas.**
+
+Editors note:
+Will not lie when I say I spent way more time than I should of on this one it was very long and I was kinda loosing my mind but I got it done thanks!
