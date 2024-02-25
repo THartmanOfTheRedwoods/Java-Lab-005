@@ -29,7 +29,7 @@ Hint: Math.pow is useful.
 ## Part 4: Evaluating Logic Expressions
 
 **Objective:**
-Using the given variables, evaluate the logic expressions in the table below and write your answers as true, false, or error in the Markdown table's Result column.
+_Using the given variables, evaluate the logic expressions in the table below and write your answers as true, false, or error in the Markdown table's Result column.
 
 ```java
 boolean yes = true;
@@ -41,23 +41,38 @@ double amount = 50.0;
 String hello = "world";
 ```
 | Expression                               | Result |
-| ---------------------------------------- | ------ |
-| yes == no &#124;&#124; grade > amount    |        |
-| amount == 40.0 &#124;&#124; 50.0          |        |
-| hiVal != loVal &#124;&#124; loVal < 0     |        |
-| True &#124;&#124; hello.length() > 0     |        |
-| hello.isEmpty() && yes                   |        |
-| grade <= 100 && !false                   |        |
-| !yes &#124;&#124; no                      |        |
-| grade > 75 > amount                      |        |
-| amount <= hiVal && amount >= loVal       |        |
-| no && !no &#124;&#124; yes && !yes       |        |
+| ---------------------------------------- |--------|
+| yes == no &#124;&#124; grade > amount    | true   |
+| amount == 40.0 &#124;&#124; 50.0          | error  |
+| hiVal != loVal &#124;&#124; loVal < 0     | true   |
+| True &#124;&#124; hello.length() > 0     | true   |
+| hello.isEmpty() && yes                   | false  |
+| grade <= 100 && !false                   | true   |
+| !yes &#124;&#124; no                      | false  |
+| grade > 75 > amount                      | error  |
+| amount <= hiVal && amount >= loVal       | true   |
+| no && !no &#124;&#124; yes && !yes_       | false  |
 
 ## Part 5: Logical Operators Understanding
 
 **Objective:**
 Determine the output of the program in [FlowOfExecution.java](src/FlowOfExecution.java) without using IntelliJ or another IDE.
 Understanding how to trace through code, understand logical operators, and following the flow of execution is critical to becoming a good programmer, and of course just a good problem solver.
+true
+true
+ping!
+pong!
+## Part 6: Triangle Formation Test
+
+**Objective:**
+Create a file named `src/Triangle.java` and write a program in it that determines if three given lengths can form a triangle. The test for triangle formation is as follows:
+- If any of the three lengths is greater than the sum of the other two, you cannot form a triangle.
+
+**Requirements:**
+- Input three integers representing the lengths of sticks.
+- Output whether you can (or cannot) form a triangle with the given lengths.
+- Create code to validate inputs are valid integers.
+- Display an error if any of the lengths are negative or zero.
 
 ## Part 6: Triangle Formation Test
 
