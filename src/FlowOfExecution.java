@@ -18,15 +18,23 @@ public class FlowOfExecution {
         return frabjuousFlag;
     }
     public static void main(String[] args) {
-        boolean flag1 = isHoopy(202);
-        boolean flag2 = isFrabjuous(202);
-        System.out.println(flag1);
-        System.out.println(flag2);
-        if (flag1 && flag2) {
-            System.out.println("ping!");
+        boolean flag1 = isHoopy(202); //#1: true
+        boolean flag2 = isFrabjuous(202); //#2: true
+        System.out.println(flag1); //outputs: true
+        System.out.println(flag2); //outputs: true
+        if (flag1 && flag2) { //true && true
+            System.out.println("ping!"); //outputs: ping!
         }
-        if (flag1 || flag2) {
-            System.out.println("pong!");
+        if (flag1 || flag2) { // true || true
+            System.out.println("pong!");//outputs: pong!
         }
+
+        /*
+        outputs:
+        true
+        true
+        ping!
+        pong!
+         */
     }
 }
