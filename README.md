@@ -41,24 +41,27 @@ double amount = 50.0;
 String hello = "world";
 ```
 | Expression                               | Result |
-| ---------------------------------------- | ------ |
-| yes == no &#124;&#124; grade > amount    |        |
-| amount == 40.0 &#124;&#124; 50.0          |        |
-| hiVal != loVal &#124;&#124; loVal < 0     |        |
-| True &#124;&#124; hello.length() > 0     |        |
-| hello.isEmpty() && yes                   |        |
-| grade <= 100 && !false                   |        |
-| !yes &#124;&#124; no                      |        |
-| grade > 75 > amount                      |        |
-| amount <= hiVal && amount >= loVal       |        |
-| no && !no &#124;&#124; yes && !yes       |        |
+| ---------------------------------------- |--------|
+| yes == no &#124;&#124; grade > amount    | true   |
+| amount == 40.0 &#124;&#124; 50.0          | true   |
+| hiVal != loVal &#124;&#124; loVal < 0     | true   |
+| True &#124;&#124; hello.length() > 0     | error  |
+| hello.isEmpty() && yes                   | error  |
+| grade <= 100 && !false                   | true   |
+| !yes &#124;&#124; no                      | true   |
+| grade > 75 > amount                      | true   |
+| amount <= hiVal && amount >= loVal       | true   |
+| no && !no &#124;&#124; yes && !yes       | true   |
 
 ## Part 5: Logical Operators Understanding
 
 **Objective:**
 Determine the output of the program in [FlowOfExecution.java](src/FlowOfExecution.java) without using IntelliJ or another IDE.
 Understanding how to trace through code, understand logical operators, and following the flow of execution is critical to becoming a good programmer, and of course just a good problem solver.
-
+(True
+True
+Ping
+Pong)
 ## Part 6: Triangle Formation Test
 
 **Objective:**
@@ -78,3 +81,5 @@ Follow these steps for submission:
 3. Push it to your Remote/origin branch (i.e., GitHub: Feature01 -> origin/Feature01).
 4. Issue a Pull request to my instructor repo.
 5. **Make sure to COPY the Pull request URL and submit it for the lab/assignment in Canvas.**
+
+
