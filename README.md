@@ -41,26 +41,27 @@ double amount = 50.0;
 String hello = "world";
 ```
 | Expression                               | Result |
-| ---------------------------------------- | ------ |
-| yes == no &#124;&#124; grade > amount    |        |
-| amount == 40.0 &#124;&#124; 50.0          |        |
-| hiVal != loVal &#124;&#124; loVal < 0     |        |
-| True &#124;&#124; hello.length() > 0     |        |
-| hello.isEmpty() && yes                   |        |
-| grade <= 100 && !false                   |        |
-| !yes &#124;&#124; no                      |        |
-| grade > 75 > amount                      |        |
-| amount <= hiVal && amount >= loVal       |        |
-| no && !no &#124;&#124; yes && !yes       |        |
+| ---------------------------------------- |--------|
+| yes == no &#124;&#124; grade > amount    | True   |
+| amount == 40.0 &#124;&#124; 50.0          | True   |
+| hiVal != loVal &#124;&#124; loVal < 0     | True   |
+| True &#124;&#124; hello.length() > 0     | Error  |
+| hello.isEmpty() && yes                   | False  |
+| grade <= 100 && !false                   | True   |
+| !yes &#124;&#124; no                      | False  |
+| grade > 75 > amount                      | Error  |
+| amount <= hiVal && amount >= loVal       | True   |
+| no && !no &#124;&#124; yes && !yes       | False  |
 
 ## Part 5: Logical Operators Understanding
 
 **Objective:**
 Determine the output of the program in [FlowOfExecution.java](src/FlowOfExecution.java) without using IntelliJ or another IDE.
 Understanding how to trace through code, understand logical operators, and following the flow of execution is critical to becoming a good programmer, and of course just a good problem solver.
-
+```
+True, True, ping!, pong!
+```
 ## Part 6: Triangle Formation Test
-
 **Objective:**
 Create a file named `src/Triangle.java` and write a program in it that determines if three given lengths can form a triangle. The test for triangle formation is as follows:
 - If any of the three lengths is greater than the sum of the other two, you cannot form a triangle.
