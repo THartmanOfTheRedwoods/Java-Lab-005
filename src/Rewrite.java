@@ -6,13 +6,10 @@ public class Rewrite {
         System.out.println("Please input a number for x: ");
         int x = s.nextInt();
 
-        if (x > 0) {
-            if (x < 10) {
-                System.out.println("positive single digit number.");
-            } else {
-                System.out.println("something else.");
-            }
+        if (x > 0 && x < 10) {
+            System.out.println("positive single digit number.");
+        } else if (x > 0 && !(x < 10)) {
+            System.out.println("something else.");
         }
     }
-
 }
