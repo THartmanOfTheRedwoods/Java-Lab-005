@@ -1,6 +1,6 @@
 # Conditionals and Logic - Java Lab 005
 
-**Instructions:**
+**Instructions:** 
 1. Fork this repository to your GitHub account.
 2. Clone the forked repository locally to your machine.
 3. Create a new branch named Feature01.
