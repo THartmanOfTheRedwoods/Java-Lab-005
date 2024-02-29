@@ -1,4 +1,4 @@
-public class FlowOfExecution {
+public class FlowOfExecution { 
     public static boolean isHoopy(int x) {
         boolean hoopyFlag;   
         if(x % 2 == 0) {

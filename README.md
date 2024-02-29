@@ -5,9 +5,9 @@
 2. Clone the forked repository locally to your machine.
 3. Create a new branch named Feature01.
 
-## Part 1: Simplifying Nested Conditionals
+## Part 1: Simplifying Nested Conditionals     
 
-**Objective:**
+**Objective:** 
 Rewrite the code **conditional code** in [Rewrite.java](src/Rewrite.java) by using a single **if** statement and **logical** operators.
 
 ## Part 2: Guess My Number Game
